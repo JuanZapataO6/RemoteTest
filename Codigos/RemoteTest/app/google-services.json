@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "225532325753",
+    "firebase_url": "https://iot-prueba-8d2f8.firebaseio.com",
+    "project_id": "iot-prueba-8d2f8",
+    "storage_bucket": "iot-prueba-8d2f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225532325753:android:41fea42d5f874c73",
+        "android_client_info": {
+          "package_name": "com.example.remotetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225532325753-9r2akpqkj7slr9db3q7i3nkmkfkimrjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.remotetest",
+            "certificate_hash": "72a80bf1f9ebf52ebf1a1c51c3aaf33d7bb034af"
+          }
+        },
+        {
+          "client_id": "225532325753-93mte9oma0o13kvunkk799kle068j8u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUXocpl95aBZfLSt1jTz0_w8A1JJknl50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225532325753-93mte9oma0o13kvunkk799kle068j8u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Function_graph"
+
+    />
+</RelativeLayout>

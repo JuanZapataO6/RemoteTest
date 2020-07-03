@@ -1,0 +1,93 @@
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:id="@+id/UserImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/Title"
+        android:src="@drawable/user"
+        android:scaleType="fitCenter"
+        android:layout_margin="3dp"/>
+
+    <ImageView
+        android:id="@+id/FirebaseImage"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/ButtonLogin"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/firebase" />
+    <ImageView
+        android:id="@+id/PhoneImage"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/ButtonLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/phone"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autenticacion de Usuarios"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/Title"
+        android:textColor="#6500CA"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca email"
+        android:textColor="#6500CA"
+        android:textColorHint="#6500CA"
+        android:layout_marginVertical="30dp"
+        android:layout_below="@id/UserImage"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:id="@+id/ET_email"
+    />
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ET_email"
+        android:layout_marginVertical="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:hint="Introduzca contraseña"
+        android:textColorHint="#6500CA"
+        android:textColor="#6500CA"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ET_password"
+        android:id="@+id/ButtonRegister"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:text="Register"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ButtonRegister"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:text="Login"
+        android:id="@+id/ButtonLogin"
+        />
+</RelativeLayout>
